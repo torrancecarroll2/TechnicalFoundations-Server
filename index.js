@@ -90,6 +90,8 @@ app.get('/recommend', (req, res) => {
     case 'vegetables':
       recommendation = 'Carrot';
       break;
+    case 'keyboards':
+      recommendation = 'Logitech MX Keys'
     default:
       recommendation = 'Unknown product type';
   }
